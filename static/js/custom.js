@@ -14,19 +14,21 @@ $(document).ready(function () {
     }
     return cookieValue;
   }
-  $("#contact-btn").on("click", function (e) {
+  $("#contact-form").on("submit", function (e) {
     e.preventDefault();
     const name = document.querySelector("#id_name").value;
     const email = document.querySelector("#id_email").value;
+    const subject = document.querySelector("#id_subject").value;
     const message = document.querySelector("#id_message").value;
     const csrftoken = getCookie("csrftoken");
-
+    console.log(name);
     $.ajax({
       type: "POST",
       url: "/",
       data: {
         name: name,
         email: email,
+        subject: subject,
         message: message,
         csrfmiddlewaretoken: csrftoken,
       },

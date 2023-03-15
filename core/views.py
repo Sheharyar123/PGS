@@ -15,13 +15,20 @@ class HomePageView(View):
         if request.headers.get("x-requested-with") == "XMLHttpRequest":
             name = request.POST.get("name")
             email = request.POST.get("email")
+            subject = request.POST.get("subject")
             message = request.POST.get("message")
             form = ContactForm(request.POST)
             if form.is_valid():
-                context = {"name": name, "email": email, "message": message}
+                context = {
+                    "name": name,
+                    "email": email,
+                    "subject": subject,
+                    "message": message,
+                }
                 send_contact_email("core/emails/send_contact_email.html", context)
                 return JsonResponse({"status": "success"})
             else:
                 return JsonResponse({"status": "failed"})
+
         else:
             return JsonResponse({"status": "failed"})
