@@ -1,4 +1,3 @@
-
 /*-----------------------------------------------------------------------------------
 
 	Theme Name: legal
@@ -94,7 +93,7 @@ html {
 }
 body {
   background-color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-weight: 400;
   color: #999999;
@@ -182,7 +181,7 @@ h4,
 h5,
 h6 {
   color: #363636;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 700;
   margin: 0 0 28px;
   line-height: 1;
@@ -282,10 +281,10 @@ p {
   text-transform: uppercase !important;
 }
 .font-heading {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 .font-body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .font-18 {
   font-size: 24px;
@@ -923,7 +922,7 @@ section {
 }
 .bg-ytvideo.bg-overlay:before {
   z-index: 1;
-  opacity: .7;
+  opacity: 0.7;
 }
 /* Background Color Palettes */
 .bg-purple {
@@ -1023,47 +1022,47 @@ section {
   background-color: #454545 !important;
 }
 .bg-gray-0 {
-  background-color: #EEEEEE !important;
+  background-color: #eeeeee !important;
   color: #454545;
 }
 .bg-gray-1 {
-  background-color: #ECECEC !important;
+  background-color: #ececec !important;
   color: #454545;
 }
 .bg-gray-2 {
-  background-color: #BDC3C7 !important;
+  background-color: #bdc3c7 !important;
   color: #454545;
 }
 .bg-gray-3 {
-  backgrond-color: #DADFE1 !important;
+  backgrond-color: #dadfe1 !important;
   color: #454545;
 }
 .bg-gray-5 {
-  background-color: #ECF0F1 !important;
+  background-color: #ecf0f1 !important;
   color: #454545;
 }
 .bg-gray-4 {
-  backgrouund-color: #F2F1EF !important;
+  backgrouund-color: #f2f1ef !important;
   color: #454545;
 }
 .bg-gray-6 {
-  background-color: #D2D7D3 !important;
+  background-color: #d2d7d3 !important;
   color: #454545;
 }
 .bg-gray-7 {
-  background-color: #E6E6E6 !important;
+  background-color: #e6e6e6 !important;
   color: #454545;
 }
 .bg-orange-1 {
-  background-color: #F9690E !important;
+  background-color: #f9690e !important;
   color: #ffffff;
 }
 .bg-orange-2 {
-  background-color: #D35400 !important;
+  background-color: #d35400 !important;
   color: #ffffff;
 }
 .bg-orange-3 {
-  background-color: #F89406 !important;
+  background-color: #f89406 !important;
   color: #ffffff;
 }
 /* Background Video */
@@ -1113,7 +1112,7 @@ section {
     #BUTTONS
 \*------------------------------------*/
 .btn {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   position: relative;
   z-index: 2;
   font-size: 14px;
@@ -1262,7 +1261,7 @@ section {
 \*------------------------------------*/
 .form-control {
   color: #999999;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 45px;
@@ -1433,7 +1432,7 @@ section {
     #Heading
 \*------------------------------------*/
 .heading .heading--title {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   color: #363636;
   font-size: 36px;
   font-weight: 400;
@@ -1461,7 +1460,7 @@ section {
   margin-left: -25px;
 }
 .heading .heading--desc {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -1589,7 +1588,7 @@ section {
   width: 0;
   height: 3px;
   background: transparent;
-  content: '';
+  content: "";
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
   transition: all 0.4s;
@@ -1907,7 +1906,7 @@ section {
     overflow: scroll !important;
   }
   .navbar-collapse.collapse {
-    display: none!important;
+    display: none !important;
   }
   .collapse.in {
     display: block !important;
@@ -1989,7 +1988,7 @@ section {
 }
 .slider .slide--headline {
   color: #ffffff;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 65px;
   font-weight: 700;
   line-height: 70px;
@@ -1998,7 +1997,7 @@ section {
 }
 .slider .slide--bio {
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 34px;
@@ -2108,14 +2107,14 @@ section {
 }
 .testimonial-panel .testimonial--body p {
   color: #999999;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 18px;
   font-style: italic;
   line-height: 35px;
   margin-bottom: 0;
 }
 .testimonial-panel .testimonial--meta h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1;
@@ -2154,10 +2153,10 @@ section {
   margin-bottom: 20px;
 }
 .feature-panel .feature--icon i {
-  -webkit-transition: all .3s linear;
-  -moz-transition: all .3s linear;
-  -ms-transition: all .3s linear;
-  transition: all .3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
   display: inline-block;
 }
 .feature-panel .feature--icon:hover i {
@@ -2168,7 +2167,7 @@ section {
   animation: pulse 0.9s infinite;
 }
 .feature-panel .feature--content h3 {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   color: #363636;
   font-size: 18px;
   font-weight: 400;
@@ -2199,7 +2198,7 @@ section {
 /* feature left circle  */
 .feature-left-circle .feature--content h3 {
   font-size: 22px;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-weight: 400;
   line-height: 29px;
   margin-bottom: 15px;
@@ -2217,12 +2216,12 @@ section {
   text-align: center;
   border-radius: 50%;
   color: #d8ae76;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   border: 2px solid #d8ae76;
-  -webkit-transition: all .2s linear;
-  -moz-transition: all .2s linear;
-  transition: all .2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 .feature-left-circle .feature-panel:hover .feature--icon {
   background: #d8ae76;
@@ -2238,7 +2237,7 @@ section {
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 20px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .about .signture {
   margin-top: 20px;
@@ -2295,7 +2294,7 @@ section {
 }
 .pricing-panel .pricing--heading h4 {
   color: #d8ae76;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 33px;
   font-weight: 400;
   line-height: 1;
@@ -2404,7 +2403,7 @@ section {
 }
 .footer--widget-recent .entry--meta {
   color: #ffffff;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 10px;
   line-height: 1;
 }
@@ -2431,7 +2430,7 @@ section {
   font-weight: 400;
   line-height: 26px;
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding-left: 30px;
   position: relative;
   margin-bottom: 30px;
@@ -2448,7 +2447,7 @@ section {
   background-color: #012b04;
   padding: 33px 0;
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
@@ -2499,7 +2498,7 @@ section {
 .carousel-navs .owl-controls .owl-nav {
   position: relative;
 }
-.carousel-navs .owl-controls .owl-nav [class*=owl-] {
+.carousel-navs .owl-controls .owl-nav [class*="owl-"] {
   position: absolute;
   top: 50%;
   height: 60px;
@@ -2518,7 +2517,7 @@ section {
   transition: all 0.35s;
   margin-top: -250px;
 }
-.carousel-navs .owl-controls .owl-nav [class*=owl-]:hover {
+.carousel-navs .owl-controls .owl-nav [class*="owl-"]:hover {
   color: #d8ae76;
   background-color: transparent;
 }
@@ -2526,7 +2525,7 @@ section {
   left: 0;
 }
 .carousel-navs .owl-controls .owl-nav .owl-prev:before {
-  font-family: 'Linearicons-Free';
+  font-family: "Linearicons-Free";
   content: "\e875";
   font-size: 40px;
 }
@@ -2534,7 +2533,7 @@ section {
   right: 0;
 }
 .carousel-navs .owl-controls .owl-nav .owl-next:before {
-  font-family: 'Linearicons-Free';
+  font-family: "Linearicons-Free";
   content: "\e876";
   font-size: 40px;
 }
@@ -2573,7 +2572,7 @@ section {
   -webkit-box-shadow: 0 0 0 2px #3d3c3c;
   box-shadow: 0 0 0 2px #ffffff;
 }
-.slider-navs .owl-controls .owl-nav [class*=owl-] {
+.slider-navs .owl-controls .owl-nav [class*="owl-"] {
   position: absolute;
   top: 50%;
   height: 60px;
@@ -2592,7 +2591,7 @@ section {
   -o-transition: all 0.35s;
   transition: all 0.35s;
 }
-.slider-navs .owl-controls .owl-nav [class*=owl-]:hover {
+.slider-navs .owl-controls .owl-nav [class*="owl-"]:hover {
   color: #999999;
   background-color: #ffffff;
 }
@@ -2641,7 +2640,7 @@ section {
   -webkit-box-shadow: 0 0 0 2px #3d3c3c;
   box-shadow: 0 0 0 2px #3d3c3c;
 }
-.slider-theme.slider-navs .owl-controls .owl-nav [class*=owl-]:hover {
+.slider-theme.slider-navs .owl-controls .owl-nav [class*="owl-"]:hover {
   color: #363636;
 }
 .slider-theme.slider-dots .owl-controls .owl-dots .owl-dot span {
@@ -2684,7 +2683,7 @@ section {
   text-transform: capitalize;
 }
 .landing-hero p {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 18px;
   line-height: 27px;
 }
@@ -2907,14 +2906,14 @@ section {
   color: #363636;
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1;
   margin-bottom: 12px;
   position: relative;
 }
 .count-title {
   color: #bdbdbd;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
@@ -3012,7 +3011,7 @@ section {
 }
 .member .member-info h5 {
   color: #363636;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 1;
@@ -3021,7 +3020,7 @@ section {
 }
 .member .member-info h6 {
   color: #999999;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
@@ -3072,11 +3071,11 @@ section {
 .entry-related .entry--img img {
   max-width: 100%;
   height: auto;
-  -moz-transition: all .35s linear;
-  -webkit-transition: all .35s linear;
-  -ms-transition: all .35s linear;
-  -o-transition: all .35s linear;
-  transition: all .35s linear;
+  -moz-transition: all 0.35s linear;
+  -webkit-transition: all 0.35s linear;
+  -ms-transition: all 0.35s linear;
+  -o-transition: all 0.35s linear;
+  transition: all 0.35s linear;
 }
 .blog-entry .entry--overlay {
   position: absolute;
@@ -3088,11 +3087,11 @@ section {
   -moz-transform: scale(0);
   transform: scale(0);
   background-color: rgba(51, 51, 51, 0.4);
-  -moz-transition: all .35s linear;
-  -webkit-transition: all .35s linear;
-  -ms-transition: all .35s linear;
-  -o-transition: all .35s linear;
-  transition: all .35s linear;
+  -moz-transition: all 0.35s linear;
+  -webkit-transition: all 0.35s linear;
+  -ms-transition: all 0.35s linear;
+  -o-transition: all 0.35s linear;
+  transition: all 0.35s linear;
 }
 .blog-entry .entry--img:hover .entry--overlay {
   -webkit-transform: scale(1);
@@ -3128,7 +3127,7 @@ section {
 }
 .blog-entry .entry--meta {
   color: #aaaaaa;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 12px;
   font-style: italic;
   font-weight: 400;
@@ -3143,7 +3142,7 @@ section {
 }
 .blog-entry .entry--title h4 {
   color: #363636;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 23px;
@@ -3185,7 +3184,7 @@ section {
   margin-bottom: 17px;
 }
 .blog-single .blog-entry .entry--meta span {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 12px;
   font-style: italic;
   line-height: 1;
@@ -3217,7 +3216,7 @@ section {
   line-height: 26px;
   font-weight: 400;
   text-transform: capitalize;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   margin-bottom: 50px;
 }
 .entry--share-tags span {
@@ -3309,7 +3308,7 @@ ul.comments-list .comment-body .comment h6 {
 }
 ul.comments-list .comment-body .comment .date {
   color: #aaaaaa;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 12px;
   font-style: italic;
   line-height: 30px;
@@ -3556,7 +3555,7 @@ ul.comments-list ul.comment-children ul .comment-body .comment {
 }
 .widget-recent-posts .entry .entry-desc .entry-meta,
 .widget-recent-posts .entry .entry-desc .entry-meta a {
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 20px;
