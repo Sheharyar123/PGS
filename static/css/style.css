@@ -1560,7 +1560,7 @@ section {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 700;
-  line-height: 100px;
+  line-height: 50px;
   color: #ffffff;
   padding: 0;
 }
@@ -2368,6 +2368,7 @@ section {
   line-height: 1;
   text-transform: capitalize;
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 .footer-widget .footer--widget-content p {
   color: #ffffff;
@@ -2428,7 +2429,7 @@ section {
 .footer-widget .footer--widget-contact ul li {
   font-size: 14px;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 15px;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
   padding-left: 30px;
@@ -3724,4 +3725,6 @@ ul.comments-list ul.comment-children ul .comment-body .comment {
   padding: 90px;
 }
 
-/*# sourceMappingURL=style.css.map */
+.team {
+  padding-top: 0px !important;
+}
