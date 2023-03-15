@@ -233,7 +233,7 @@
                 We offer a wide range of programs and services that are designed
                 to support our students' academic, social, and emotional growth.
               </p>
-              <div class="heading--divider mb-80 heading--center"></div>
+              <div class="heading--divider mb-40 heading--center"></div>
             </div>
           </div>
         </div>
@@ -342,7 +342,7 @@
                 Meet Our Dedicated and Experienced Instructors, the Leaders in
                 Education and Mentorship
               </p>
-              <div class="heading--divider mb-80 heading--center"></div>
+              <div class="heading--divider mb-40 heading--center"></div>
             </div>
           </div>
         </div>
@@ -441,7 +441,7 @@
                     We provide our students with every opportunity to discover
                     and build upon their strengths.
                   </p>
-                  <div class="heading--divider mb-80"></div>
+                  <div class="heading--divider mb-40"></div>
                 </div>
               </div>
   
@@ -527,7 +527,7 @@
               <p class="heading--desc">
                 Lets see what parents are saying about our school
               </p>
-              <div class="heading--divider mb-80 heading--center"></div>
+              <div class="heading--divider mb-40 heading--center"></div>
             </div>
           </div>
         </div>
@@ -623,36 +623,21 @@
           <div class="heading heading-1 wow fadeInUp" data-wow-duration="1s">
             <h2 class="heading--title">Contact Now</h2>
             <p class="heading--desc">Chat with us</p>
-            <div class="heading--divider mb-80"></div>
+            <div class="heading--divider mb-40"></div>
           </div>
           <div class="form-request">
             <div class="row">
-              <form class="mb-0">
+              <form class="mb-0" method="POST" action="{% url 'core:index' %}" id="contact-form">
                 <div class="col-xs-12 col-sm-12 col-md-6">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="your-name"
-                    placeholder="Your Name"
-                  />
+                  {{ form.name }}
                 </div>
     
                 <div class="col-xs-12 col-sm-12 col-md-6">
-                  <input
-                    type="email"
-                    class="form-control"
-                    name="your-email"
-                    placeholder="Your Email"
-                  />
+                  {{ form.email }}
                 </div>
     
                 <div class="col-xs-12 col-sm-12 col-md-12">
-                  <textarea
-                    class="form-control"
-                    name="your-message"
-                    rows="3"
-                    placeholder="Your Message"
-                  ></textarea>
+                  {{ form.message }}
                 </div>
   
                 <div class="col-xs-12 col-sm-12 col-md-6">
@@ -660,6 +645,7 @@
                     type="submit"
                     class="btn btn--primary"
                     value="send request"
+                    id="contact-btn"
                   />
                 </div>
     

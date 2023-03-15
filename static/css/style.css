@@ -1120,10 +1120,11 @@ section {
   text-transform: uppercase;
   text-align: center;
   border-radius: 6px;
-  padding: 0;
-  line-height: 53px;
+  padding: 15px 30px;
+  display: inline-block;
+  /* line-height: 53px;
   width: 210px;
-  height: 53px;
+  height: 53px; */
 }
 .btn.active,
 .btn:active {
@@ -3727,4 +3728,14 @@ ul.comments-list ul.comment-children ul .comment-body .comment {
 
 .team {
   padding-top: 0px !important;
+}
+
+textarea.form-control {
+  height: 300px !important;
+}
+
+@media (max-width: 480px) {
+  .btn {
+    padding: 10px 20px;
+  }
 }
