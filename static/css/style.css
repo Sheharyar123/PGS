@@ -93,7 +93,7 @@ html {
 }
 body {
   background-color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
   font-weight: 400;
   color: #999999;
@@ -156,6 +156,10 @@ button.btn {
 .fullscreen {
   height: 100vh !important;
 }
+
+img {
+  border-radius: 10px;
+}
 /* Custom, iPhone Retina */
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
@@ -181,7 +185,7 @@ h4,
 h5,
 h6 {
   color: #363636;
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   margin: 0 0 28px;
   line-height: 1;
@@ -281,10 +285,10 @@ p {
   text-transform: uppercase !important;
 }
 .font-heading {
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
 }
 .font-body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .font-18 {
   font-size: 24px;
@@ -894,6 +898,7 @@ section {
   background-position: center center;
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
 .bg-overlay:before {
   content: "";
@@ -1111,7 +1116,7 @@ section {
     #BUTTONS
 \*------------------------------------*/
 .btn {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   position: relative;
   z-index: 2;
   font-size: 14px;
@@ -1261,7 +1266,7 @@ section {
 \*------------------------------------*/
 .form-control {
   color: #999999;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 45px;
@@ -1431,7 +1436,7 @@ section {
     #Heading
 \*------------------------------------*/
 .heading .heading--title {
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   color: #363636;
   font-size: 36px;
   font-weight: 400;
@@ -1459,7 +1464,7 @@ section {
   margin-left: -25px;
 }
 .heading .heading--desc {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -1987,7 +1992,7 @@ section {
 }
 .slider .slide--headline {
   color: #ffffff;
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   font-size: 65px;
   font-weight: 700;
   line-height: 70px;
@@ -1996,7 +2001,7 @@ section {
 }
 .slider .slide--bio {
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 34px;
@@ -2106,14 +2111,14 @@ section {
 }
 .testimonial-panel .testimonial--body p {
   color: #999999;
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
   font-style: italic;
   line-height: 35px;
   margin-bottom: 0;
 }
 .testimonial-panel .testimonial--meta h4 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1;
@@ -2166,7 +2171,7 @@ section {
   animation: pulse 0.9s infinite;
 }
 .feature-panel .feature--content h3 {
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   color: #363636;
   font-size: 18px;
   font-weight: 400;
@@ -2197,7 +2202,7 @@ section {
 /* feature left circle  */
 .feature-left-circle .feature--content h3 {
   font-size: 22px;
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 29px;
   margin-bottom: 15px;
@@ -2215,7 +2220,7 @@ section {
   text-align: center;
   border-radius: 50%;
   color: #d8ae76;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   border: 2px solid #d8ae76;
   -webkit-transition: all 0.2s linear;
@@ -2236,7 +2241,7 @@ section {
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 20px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .about .signture {
   margin-top: 20px;
@@ -2293,7 +2298,7 @@ section {
 }
 .pricing-panel .pricing--heading h4 {
   color: #d8ae76;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 33px;
   font-weight: 400;
   line-height: 1;
@@ -2403,7 +2408,7 @@ section {
 }
 .footer--widget-recent .entry--meta {
   color: #ffffff;
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   font-size: 10px;
   line-height: 1;
 }
@@ -2430,7 +2435,7 @@ section {
   font-weight: 400;
   line-height: 15px;
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding-left: 30px;
   position: relative;
   margin-bottom: 30px;
@@ -2447,7 +2452,7 @@ section {
   background-color: #012b04;
   padding: 33px 0;
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
@@ -2683,7 +2688,7 @@ section {
   text-transform: capitalize;
 }
 .landing-hero p {
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
   line-height: 27px;
 }
@@ -2892,7 +2897,7 @@ section {
 }
 .count-box .count-icon {
   color: #d8ae76;
-  font-size: 76px;
+  font-size: 50px;
   margin-bottom: 10px;
   line-height: 1;
   position: absolute;
@@ -2900,20 +2905,20 @@ section {
   left: 50px;
 }
 .count-box .count-content {
-  padding-left: 65px;
+  padding-left: 60px;
 }
 .count-box .counting {
   color: #363636;
   font-size: 36px;
   font-weight: 700;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1;
   margin-bottom: 12px;
   position: relative;
 }
 .count-title {
   color: #bdbdbd;
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
@@ -3011,7 +3016,7 @@ section {
 }
 .member .member-info h5 {
   color: #363636;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 1;
@@ -3020,7 +3025,7 @@ section {
 }
 .member .member-info h6 {
   color: #999999;
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
@@ -3127,7 +3132,7 @@ section {
 }
 .blog-entry .entry--meta {
   color: #aaaaaa;
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   font-size: 12px;
   font-style: italic;
   font-weight: 400;
@@ -3142,7 +3147,7 @@ section {
 }
 .blog-entry .entry--title h4 {
   color: #363636;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 23px;
@@ -3184,7 +3189,7 @@ section {
   margin-bottom: 17px;
 }
 .blog-single .blog-entry .entry--meta span {
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   font-size: 12px;
   font-style: italic;
   line-height: 1;
@@ -3216,7 +3221,7 @@ section {
   line-height: 26px;
   font-weight: 400;
   text-transform: capitalize;
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   margin-bottom: 50px;
 }
 .entry--share-tags span {
@@ -3308,7 +3313,7 @@ ul.comments-list .comment-body .comment h6 {
 }
 ul.comments-list .comment-body .comment .date {
   color: #aaaaaa;
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   font-size: 12px;
   font-style: italic;
   line-height: 30px;
@@ -3555,7 +3560,7 @@ ul.comments-list ul.comment-children ul .comment-body .comment {
 }
 .widget-recent-posts .entry .entry-desc .entry-meta,
 .widget-recent-posts .entry .entry-desc .entry-meta a {
-  font-family: "Merriweather", serif;
+  font-family: "Lato", sans-serif;
   font-size: 10px;
   font-weight: 400;
   line-height: 20px;
@@ -3736,8 +3741,16 @@ textarea.form-control {
   .btn {
     padding: 10px 20px;
   }
+  .owl-nav {
+    display: none;
+  }
 }
 
 .container {
   max-width: 1100px !important;
+}
+
+.school-content,
+.skill-content {
+  padding-left: 70px !important;
 }
